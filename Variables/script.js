@@ -79,6 +79,38 @@ let output = phrase.replace('CSS', 'JavaScript');
 let outputModified = output.replace('love', 'hate');
 console.log(outputModified);
 
+// toUpperCase() method
+
+let job = 'web developer';
+let outcome = job.toUpperCase();
+console.log(outcome);
+
+// toLowerCase() method
+
+let profession = 'WEB DEVELOPER';
+let res = profession.toLowerCase();
+console.log(res);
+
+// concat() method;
+
+
+let message = 'Hello';
+let userOne = 'Jim,';
+let questionAsked = 'How are you?'
+
+let outputs = message.concat(" ",userOne, " ", questionAsked)
+console.log(outputs);
+
+// Replace() method
+let sentence = 'I love Mike';
+let sentenceModified = sentence.replace('Mike', "John");
+console.log(sentenceModified);
+
+let place = 'My favourite place in new York is Central Park';
+let placeChanged = place.replace("Central Park", "Bryant Park");
+console.log(placeChanged);
+
+
 
 
 
