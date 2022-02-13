@@ -111,6 +111,15 @@ let placeChanged = place.replace("Central Park", "Bryant Park");
 console.log(placeChanged);
 
 
+// trim() method:
+
+let textUsed =  '       JavaScript Applications          ';
+let resultDerived = textUsed.trim();
+console.log(resultDerived);
+
+
+
+
 
 
 
